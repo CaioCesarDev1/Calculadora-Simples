@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <div class="theme"><h1>Calculadora Simples</h1></div>
+
+        <div class="container-calculator">
+            <div class="container-input1">
+                <spam class="borde1" >NÚMERO 1</spam>
+                <input class="input1" id="number1" type="Number"></input>
+            </div>
+            <div class="container-input2">
+                <spam class="borde2" >NÚMERO 2</spam>
+                <input class="input2" id="number2" type="Number"></input>
+            </div>
+        </div>
+
+        <div class="container-botton">
+            <button class="buttonSoma efeito" id="buttonSoma" onclick="CalcularSoma()">SOMA</button>
+            <button class="buttonSub efeito" id="buttonSub" onclick="CalcularSub()" >SUB</button>
+            <button class="buttonMul efeito" id="buttonMul" onclick="CalcularMul()" >MUL</button>
+            <button class="buttonDiv efeito" id="buttonDiv" onclick="CalcularDiv()">DIV</button>
+    
+        </div>
+        <div class="container-resultado">
+            <h3 class="textoResultado">Resultado</h3>
+            <div>
+                <span class="resultado" id="resultado"></span>
+                <button class="resete" id="resete" onclick="Resete()">C</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

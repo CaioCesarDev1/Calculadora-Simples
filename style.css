@@ -1,0 +1,211 @@
+*{
+    font-family: "LEMON MILK";
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box1;
+}
+
+body{
+    background-color: #f75312;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    background-color: #302929;
+    width: 780px;
+    height: 465px;
+    border-radius: 50px;
+    border: solid #FFF 4px;
+}
+
+.theme{
+    background-color: #302929;
+    color: rgb(255, 156, 62);
+    text-align: center;
+    height: 100px;
+    max-width: 650px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+    border: solid rgb(255, 255, 255) 5px;
+    border-radius: 25px;
+}
+
+.container-calculator{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin-top: 45px;
+}
+
+.container-input1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.container-input2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.borde1{
+    text-align: center;
+    background-color: #f75312;
+    width: 250px;
+    border-radius: 3px;
+}
+
+.borde2{
+    text-align: center;
+    background-color: #f75312;
+    width: 250px;
+    border-radius: 3px;
+}
+
+.input1{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 22px;
+}
+
+.input2{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 22px;
+}
+
+.container-botton{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 600px;
+    margin-top: 10px;
+}
+
+.buttonSoma{
+    width: 120px;
+    height: 40px;
+    font-size: 22px;
+    background-color: #f75312;
+    border: dashed #FFF 2px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttonSoma:hover{
+    background-color: #FFF;
+    border: solid rgb(0, 0, 0) 2px;
+}
+
+.buttonSub{
+    width: 120px;
+    height: 40px;
+    font-size: 22px;
+    background-color: #f75312;
+    border: dashed #FFF 2px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttonSub:hover{
+    background-color: #FFF;
+    border: solid rgb(0, 0, 0) 2px;
+}
+
+.buttonMul{
+    width: 120px;
+    height: 40px;
+    font-size: 22px;
+    background-color: #f75312;
+    border: dashed #FFF 2px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttonMul:hover{
+    background-color: #FFF;
+    border: solid rgb(0, 0, 0) 2px;
+}
+
+.buttonDiv{
+    width: 120px;
+    height: 40px;
+    font-size: 22px;
+    background-color: #f75312;
+    border: dashed #FFF 2px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttonDiv:hover{
+    background-color: #FFF;
+    border: solid rgb(0, 0, 0) 2px;
+}
+
+.container-resultado{
+    margin-top: 20px;
+    width: 500px;
+    height: 200px;
+    align-items: center;
+
+}
+
+.textoResultado{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f75312;
+    width: 180px;;
+    border: solid #FFF 2px;
+}
+
+.resultado{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFF;
+    width: 300px;
+    height: 50px;
+    border-radius: 18px;
+    font-size: 24px;
+}
+
+.resete{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    background-color: #f75312;
+    border: dashed #FFF 2px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 9px;
+    text-align: center;
+}
+
+.resete:hover{
+    background-color: #FFF;
+    border: solid rgb(0, 0, 0) 2px;
+}
